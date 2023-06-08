@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.697" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Excel" name="Validate Search Functionality with Valid data - Example #1.1" time="11.119">
+<system-out><![CDATA[
+Given Chrome is opened and Opencart application is launched.................passed
+Then User Navigates on landing page.........................................passed
+When User clicks on marketplace.............................................passed
+And User navigates to the marketplace page..................................passed
+And User enters data from given sheetname "Sheet1" and 0 in the search bar..passed
+And User clicks on search icon..............................................passed
+Then it shows the list of product...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Excel" name="Validate Search Functionality with Valid data - Example #1.2" time="10.566">
+<system-out><![CDATA[
+Given Chrome is opened and Opencart application is launched.................passed
+Then User Navigates on landing page.........................................passed
+When User clicks on marketplace.............................................passed
+And User navigates to the marketplace page..................................passed
+And User enters data from given sheetname "Sheet1" and 1 in the search bar..passed
+And User clicks on search icon..............................................passed
+Then it shows the list of product...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
